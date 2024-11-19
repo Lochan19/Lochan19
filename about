@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOCHAN's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="hero">
+        <div class="hero-content">
+            <img src="images/name.jpg" alt="Profile Picture" class="profile-img" width="150px"
+                style="border-radius: 50%;">
+            <h1>LOCHAN</h1>
+            <p class="tagline">WEB Developer | Fitness Enthusiast | Creative Problem Solver</p>
+            <nav class="hero-nav">
+                <a href="index.html" class="active">Home</a>
+                <a href="about.html">About</a>
+                <a href="projects.html">Projects</a>
+                <a href="skills.html">Skills</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- About Section -->
+        <section id="about" class="home-section">
+            <h2><u>About Me</u></h2>
+            <p style="font-size: 20px;">Hi, I'm Lochan, Currently pursuing a degree in Computer Science and Design Engineering at Dayananda Sagar College, Bengaluru. Prior to this, I completed my PUC at Vidya Mandir PU College and my schooling at WIDIA POORNAPRJANA. I reside in Bengaluru with my nuclear family.
+
+                I have a strong interest in sports and enjoy staying active through exercise
+            </p>
+        </section>
+        <hr>
+       
+
+    <footer>
+        <p>&copy; 2024 LOCHAN A &nbsp;| &nbsp;All Rights Reserved</p>
+    </footer>
+</body>
+
+</html>
