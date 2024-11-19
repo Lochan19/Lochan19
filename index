@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOCHAN's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="hero">
+        <div class="hero-content">
+            <img src="images/name.jpg" alt=" Profile Picture" class="profile-img" width="150px"
+                style="border-radius: 50%;">
+            <h1>LOCHAN A</h1>
+            <p class="tagline">Front-End Developer | Tech Enthusiast | Creative Problem Solver</p>
+            <nav class="hero-nav">
+                <a href="index.html" class="active">Home</a>
+                <a href="about.html">About</a>
+                <a href="projects.html">Projects</a>
+                <a href="skills.html">Skills</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- About Section -->
+        <section id="about" class="home-section">
+            <h2><u>About Me</u></h2>
+            <p style="font-size: 20px;">
+            </p>
+        </section>
+        <hr>
+        <!-- Projects Section -->
+        <section id="projects" class="home-section">
+            <h2><u>Highlighted Projects</u></h2>
+            <div class="project-highlights">
+                <div class="highlight">
+                    <h3>E-Commerce Website</h3>
+                    <p>A responsive e-commerce platform with payment integration.</p>
+                </div>
+                <div class="highlight">
+                    <h3>Portfolio Redesign</h3>
+                    <p>A modern portfolio design to improve user experience.</p>
+                </div>
+                <div class="highlight">
+                    <h3>Blog Platform</h3>
+                    <p>A dynamic blogging platform with CMS integration.</p>
+                </div>
+            </div>
+            <a href="projects.html" class="btn">View All Projects</a>
+        </section>
+        <hr>
+        <!-- Contact Section -->
+        <section id="contact" class="home-section">
+            <h2><u>Get In Touch</u></h2>
+            <p style="font-size: 20px;">Interested in working together? Feel free to reach out!</p>
+            <a href="contact.html" class="btn">Contact Me</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 LOCHAN A &nbsp;| &nbsp;All Rights Reserved</p>
+    </footer>
+</body>
+
+</html>
