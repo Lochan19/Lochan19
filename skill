@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills - LOCHAN's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="hero">
+        <div class="hero-content">
+            <img src="data:image/png;base64,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" alt=" Profile Picture" class="profile-img" width="150px"
+                style="border-radius: 50%;">
+            <h1>LOCHAN A</h1>
+            <p class="tagline">Front-End Developer | Tech Enthusiast | Creative Problem Solver</p>
+            <nav class="hero-nav">
+                <a href="index.html" class="active">Home</a>
+                <a href="about.html">About</a>
+                <a href="projects.html">Projects</a>
+                <a href="skills.html">Skills</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <br>
+        <section id="skills-list">
+            <ul>
+                <li>HTML - Advanced</li><br>
+                <li>CSS - Intermediate</li><br>
+                <li>JavaScript - Intermediate</li><br>
+            </ul>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
